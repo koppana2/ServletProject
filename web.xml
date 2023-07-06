@@ -1,0 +1,32 @@
+<web-app>
+
+<servlet>
+<servlet-name> prasad</servlet-name>
+<servlet-class>Secondservlet </servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name> siva</servlet-name>
+<servlet-class>Line </servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>vara</servlet-name>
+<servlet-class>Date1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name> prasad </servlet-name>
+<url-pattern> /prasad </url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name> siva</servlet-name>
+<url-pattern>/lines</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name> vara </servlet-name>
+<url-pattern> /date </url-pattern>
+</servlet-mapping>
+</web-app>
