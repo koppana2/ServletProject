@@ -1,32 +1,13 @@
-<web-app>
-
-<servlet>
-<servlet-name> prasad</servlet-name>
-<servlet-class>Secondservlet </servlet-class>
-</servlet>
-
-<servlet>
-<servlet-name> siva</servlet-name>
-<servlet-class>Line </servlet-class>
-</servlet>
-
-<servlet>
-<servlet-name>vara</servlet-name>
-<servlet-class>Date1</servlet-class>
-</servlet>
-
-<servlet-mapping>
-<servlet-name> prasad </servlet-name>
-<url-pattern> /prasad </url-pattern>
-</servlet-mapping>
-
-<servlet-mapping>
-<servlet-name> siva</servlet-name>
-<url-pattern>/lines</url-pattern>
-</servlet-mapping>
-
-<servlet-mapping>
-<servlet-name> vara </servlet-name>
-<url-pattern> /date </url-pattern>
-</servlet-mapping>
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+   <servlet>
+  	<servlet-name>My</servlet-name>
+  	<servlet-class>p1.MyServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+     <servlet-name> My</servlet-name>
+     <url-pattern>/re</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
