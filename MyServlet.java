@@ -1,15 +1,8 @@
-package p1;
+package com;
 
-import javax.servlet.*;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 
-import java.io.*;
-import java.sql.*;
-
-
-public class MyServlet extends HttpServlet {
+public class MyServlet extends Httpservlet {
 
 	public void service(HttpServletRequest request, HttpServletResponse response) throws IOException
 	{
@@ -66,5 +59,4 @@ public class MyServlet extends HttpServlet {
 		}
 		
 	}
-
 }
